@@ -9,7 +9,7 @@ export default function Main() {
         <main>
             <Routes>
                 <Route path="/" element={<Home />}/>
-                <Route path="/facts" element={<Facts />}/>
+                <Route path="/facts/:type" element={<Facts />}/>
                 <Route path="/notes" element={<Notes />}/>
             </Routes>
         </main>

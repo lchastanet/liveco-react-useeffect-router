@@ -1,7 +1,10 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
+
+import FactLoader from '../components/facts/FactLoader'
 
 export default function Facts() {
-  return (
-    <div>Facts</div>
-  )
+    const { type } = useParams()
+
+  return <FactLoader type={type} />
 }

@@ -12,7 +12,7 @@ export default function Header() {
     <header>
         <nav>
             <NavLink style={isActiveLink} to="/">Home</NavLink>
-            <NavLink style={isActiveLink} to="/facts">Facts</NavLink>
+            <NavLink style={isActiveLink} to="/facts/dog">Facts</NavLink>
             <NavLink style={isActiveLink} to="/notes">Notes</NavLink>
         </nav>
     </header>
