@@ -1,0 +1,17 @@
+header {
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
