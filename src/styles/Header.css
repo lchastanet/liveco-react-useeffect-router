@@ -1,17 +1,25 @@
 header {
-    height: 50px;
-    background-color: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
 }
 
 a {
-    margin: 15px;
-    color: #000;
-    text-decoration: none;
+  margin: 15px;
+  color: #000;
+  text-decoration: none;
 }
 
 a:hover {
-    color: grey;
+  color: grey;
+}
+
+.blue {
+  background-color: rgb(96, 164, 223);
+}
+
+.red {
+  background-color: rgb(182, 39, 14);
 }

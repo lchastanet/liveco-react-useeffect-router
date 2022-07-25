@@ -1,10 +1,16 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
+import React from "react"
+import { useParams } from "react-router-dom"
 
-import FactLoader from '../components/facts/FactLoader'
+import FactLoader from "../components/facts/FactLoader"
+
+import SecondLayout from "../components/layouts/SecondLayout"
 
 export default function Facts() {
-    const { type } = useParams()
+  const { type } = useParams()
 
-  return <FactLoader type={type} />
+  return (
+    <SecondLayout>
+      <FactLoader type={type} />
+    </SecondLayout>
+  )
 }
